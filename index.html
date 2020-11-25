@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery-Logbook</title>
+    <style>
+        h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+        h2{
+        display: flex;
+        justify-content: center;
+        }
+        .parent{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        }
+        .box{
+        width: 300px;
+        height: 300px;
+        background: lightgrey;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        
+        }
+        button{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin-bottom: 10px;
+        width: 270px;
+        }
+
+    </style>
+    <script src="./lib/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    
+         <h1>My Logbook</h1>
+    <h2>The logbook for my projects</h2>
+
+    <div class="parent">
+        <div class="box">
+            <a href="./new.html">
+            <button>Add project item</button><br>
+            </a>
+            <a href="./all.html">
+                <button>Show all projects</button><br>
+            </a>
+            <a href="./search.html">
+            <button>Search projects</button><br>
+            </a>
+
+        </div>
+
+    </div>
+    <script src="./app.js"></script>
+</body>
+   
+</html>

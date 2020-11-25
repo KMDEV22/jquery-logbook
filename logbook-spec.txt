@@ -1,0 +1,10 @@
+What is log book: 
+    It will be showing a form for entering project-details
+    Each project detail (form) contains project name, project discription, language, date
+Why logbook is needed?
+    I want to search my projects by name
+    I want to search my projects by tags
+    I want to see the priojects created withing a period
+    I want to see a sorted list of my projects
+
+Happy Coding :)     
