@@ -137,7 +137,10 @@
                     obj.language = $('#language').val()
                     obj.tags = $('#tags').val()
                     obj.projectsite = $('#projectsite').val()
-                    if(myItems.indexOf(obj)== -1){
+                    let findItem = myItems.filter((itm)=>{
+                        return itm.itemname == obj.itemname
+                    })
+                    if(findItem.length == 0){
                         myItems.push(obj)
                     }
 
